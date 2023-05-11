@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA 08 FORMULARIOS</title>
+
+      <style>
+        body{
+          background-color: bisque;
+        }
+        fieldset{
+          background-color: darkcyan;
+        }
+        h1{
+          color: aqua;
+        }
+        form{
+          width: 400px;
+        }
+      </style>
+      
+  </head>
+  <body>
+          <form>
+            <fieldset>
+              <legend><mark>CADASTRO</mark></legend>
+
+            <label>data:</label>
+            <input type="text" name="data" id="data" placeholder="data de nascimento"/>
+            <br>
+            <br>
+            <label>nome:</label>
+            <input type="text" name="name" id="name" placeholder="digite seu nome" />
+            <br>
+            <br>
+            <label>local:</label>
+            <input type="text" name="local" id="local" placeholder="digite onde voce mora"/>
+            <br>
+            <br>
+            <label>Email:</label>
+            <input type="email" name="email" id="email" placeholder="digite seu email" />
+            <br>
+            <br>
+            <label for="">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="digite sua senha" />
+            <br>
+            <br>
+            <label for="mensagem">mini-curriculo:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="digite sua mensagem"></textarea>
+            <br>
+            <br>
+            <label for="cidades">Cidades</label>
+            <select name="cidades" id="cidades">
+            <br>
+              <option volue="Joinville"> Joinville</option>
+              <option value="Goias">Curitiba</option>
+              <option value="Amazonas">Amazonas</option>
+              <option value="rio grande do sul">rio grande do sul</option>
+            </select>
+            <br>
+            <br>
+
+            <mark>OBRIGATÓRIO</mark>
+
+            <br>
+            <br>
+            <label for="">Turno da manhã:</label>
+            <input type="radio" name="turno">manhã
+            <input type="radio" name="turno">Tarde
+            <input type="radio" name="turno">Noite
+            <input type="radio" name="turno">fim de semana
+            <br>
+            <br>
+            <label for="">sexo:</label>
+            <input type="radio" name="sexo">masculino
+            <input type="radio" name="sexo">feminino
+            <input type="radio" max="sexo"> outros
+            <br>
+            <br>
+          </fieldset>
+          <fieldset>
+
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />
+            
+          </fieldset>
+          </form>
+  </body>
+  </html>
+
+
+
+
+
+

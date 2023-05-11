@@ -1,0 +1,105 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>AULA 08 FORMULARIOS</title>
+
+
+      <style>
+        *{
+          margin:0 auto;
+        }
+        body{
+          background-color: whitesmoke;
+        }
+        h1{
+          color: red;
+        }
+        fieldset{
+          background-color: bisque;
+          border: 10px;
+          width: 400px;
+        }
+        label{
+          padding-right: 10px;
+          background-color: cornflowerblue;
+        }
+        .container{
+          background-color: aquamarine;
+          width: 428px;
+          right: 500px;
+        }
+      </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formulário</h1>
+        <form>
+          <fieldset>
+            <legend><mark>DADOS PESSOAIS</mark></legend>
+
+            <label>nome:</label>
+            <input type="text" name="data" id="data" placeholder="digite seu nome"/>
+            <br>
+            <br>
+            <label>Endereço:</label>
+            <input type="text" name="name" id="name" placeholder="digite seu indereço" />
+            <br>
+            <br>
+            <label>Cidades:</label>
+            <input type="text" name="local" id="local" placeholder="digite o nome da sua cidade"/>
+            <br>
+            <br>
+            <label for="Estados">Estados</label>
+            <select name="Estados" id="Estados">
+              <option volue="Santa Catarina">Santa Catarina</option>
+              <option value="Parána">Parána</option>
+              <option value="Amazonas">Amazonas</option>
+              <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+              <option volue="Minas Gerais">Minas Gerais</option>
+              <option value="Acre">Acre</option>
+              <option value="Alagoas">Alagoas</option>
+              <option value="Amapá">Amapá</option>
+              <option volue="Bahia">Bahia</option>
+              <option value="Ceara">Ceara</option>
+              </select>
+            </fieldset>
+
+          <fieldset>
+          <legend><mark>Dados Pessoais</mark></legend>
+
+          <label for="">Natureza do Cargo</label>
+          <br>
+          <input type="radio" name="Cargo" id="Cargo" value="Cargo">Gerência
+          <input type="radio" name="Cargo" id="Cargo" value="Cargo">Financeiro
+          <input type="radio" name="Cargo" id="Cargo" value="Cargo">Recepção
+          <input type="radio" name="Cargo" id="Cargo" value="Cargo">administrativo
+          <input type="radio" name="Cargo" id="Cargo" value="Cargo">juridico
+          <br>
+          <br>
+          <br>
+          <label for="">Areas de Interrece</label>
+          <br>
+          <input type="checkbox" name="computação" id="camputção" value="computção">computação
+              <input type="checkbox" name="Biologia" id="Biologia" value="Biologia">Biologia
+              <input type="checkbox" name="Meio Ambiente" id="Meio Ambiente" value="Meio Ambiente">Meio Ambiente
+              <input type="checkbox" name="Engenharia" id="Engenharia" value="Engenharia">Engenharia
+              <input type="checkbox" name="Historia" id="Historia" value="Historia">Historia
+              <br>
+              <br>
+              <br>
+              <label for="mensagem">Mini-curriculo:</label>
+              <textarea name="mensagem" id="mensagem" placeholder="digite sua mensagem"></textarea>
+              <br>
+              <br>
+              <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpar" />
+              </fieldset>
+              </form>
+              <h1>TO COM FOMEEEEEEEEEEEEEEEE</h1>
+    </div>
+      </body>
+  </html>

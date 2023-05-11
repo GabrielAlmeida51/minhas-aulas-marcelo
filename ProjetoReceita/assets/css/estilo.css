@@ -1,0 +1,100 @@
+body{
+    background-color: #FFF8DC;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+h2{
+    padding: 5px;
+    color: #fff;
+    background-image:linear-gradient(#FFD28F, #FFAF35, #80571B);
+    border-radius: 15px;
+    border: 2px solid black;
+}
+#titulo{
+    text-align: center;
+    color: black;
+}
+
+#cabecalho{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #FFBD59;
+    color: white;
+    border: 3px solid black;
+}
+
+#banner{
+    width: 250px;
+}
+nav{
+    width: 200px;
+    float: left;  
+    
+}
+nav ul{
+    background-color: #FFD28F;
+    margin-bottom: 3px;
+}
+nav ul li:hover{
+    background-color: yellow;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    list-style: none;
+    padding-left: 0;
+}
+#item-select{
+    background-color: #80571B;
+}
+#topo{
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+#topo img{
+    width: 400px;
+}
+figure{
+    background-color: azure;
+    width: 450px;
+    text-align: center;
+    padding: 15px;
+    font-family:"comic sans MS", cursive;
+    border: 2px solid black;
+    box-shadow: 5px 5px 3px rgba(red, green, blue, alpha);
+    transform: rotate(-5deg);
+}
+#tb-nutrientes{
+    width: 40%;
+    margin: auto;
+    border: 2px solid black;
+    margin-bottom: 50px;
+}
+#th-nutrientes th{
+    background-color: #f8ea68;
+}
+#tb-nutrientes tr:nth-child(odd){
+    background-color: #DEB887;
+}
+#tb-nutrientes tr:nth-child(even){
+    background-color: #f8eab3;
+}
+#rodape{
+    position: fixed;
+    bottom: 0;
+    width: 940px;
+    text-align: center;
+    font-size: 'courier new', courier, monospace;
+    background-color: #DEB887;
+    color: black;
+}
+
+
+
+
