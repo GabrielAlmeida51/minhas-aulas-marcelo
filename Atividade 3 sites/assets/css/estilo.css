@@ -1,0 +1,54 @@
+h1{
+    font-size: 40px;
+    color: brown;
+}
+#vermelho{
+    color: red;
+}
+#azul{
+    color: blue;
+}
+#verde{
+    color: green;
+}
+#laranja{
+    color: orangered;
+}
+li{
+    color: darkred;
+}
+#p{
+    color: black;
+}
+footer{
+    background-color: blue;
+    height: 200px;
+}
+#i{
+    color: aliceblue;
+    padding-left: 150px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+#q{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-left: 350px;
+    margin-top: -120px;
+   
+}
+#t{
+    margin-left: 300px;
+    margin-top: -195px;
+}
+#globo{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+#globeee{
+    margin-left: 800px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+   
